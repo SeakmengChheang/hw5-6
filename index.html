@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/template.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="javascript/index.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', loaded);
+    </script>
+
+</head>
+
+<body>
+    <button id="to-top-btn" onclick="window.scrollTo(0,0)"><span class="fa fa-caret-up"></span></button>
+
+    <div class="container">
+        <header>
+            <div class="sitemap">
+                <div class="left">
+                    <ul>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">PRIVACY</a></li>
+                        <li><a href="#">SITEMAP</a></li>
+                        <li><a href="#">ADVERTISEMENT</a></li>
+                    </ul>
+                </div>
+
+                <div class="right">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+
+            <div class="logo" style="padding-left: 50px;">
+                <marquee behavior="alternate" direction="left">
+                    <a href="#">
+                        <img src="images/angkor_wat.png" alt="angkor_wat-img" width="150px" height="100px">
+                    </a>
+                </marquee>
+            </div>
+
+            <div class="navbar">
+                <nav>
+                    <div class="dropdown">
+                        <button class="dropbtn" style="background-color: #4caf50;">
+                            <div>
+                                <i class="fa fa-minus minus"></i>
+                                <p>HOME</p>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <div>
+                                <i class="fa fa-minus minus"></i>
+                                <p>MOVIE <span class="fa fa-caret-down"></span></p>
+                            </div>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <i class="fa fa-minus minus"></i>
+                            <p>DRAMA <span class="fa fa-caret-down"></span></p>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <i class="fa fa-minus minus"></i>
+                            <p>TENFI MOVIES</p>
+                        </button>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">
+                            <i class="fa fa-minus minus"></i>
+                            <p>KHMER TV <span class="fa fa-caret-down"></span></p>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </nav>
+
+                <div class="btn-search">
+                    <center>
+                        <a href="#">
+                            <p class="fa fa-search"></p>
+                        </a>
+                    </center>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="banner-warning">
+            <marquee behavior="scroll" direction="left"
+                style="border-top: #4caf50 solid 1px;border-bottom: #4caf50 solid 1px;">
+                <p>We won't respond any cause a problem linked to.</p>
+            </marquee>
+            <marquee behavior="scroll" direction="left">
+                <p>From now to Christmas: <span id="to_christmas"></span></p>
+            </marquee>
+            <marquee behavior="scroll" direction="left">
+                <p>From now to countdown: <span id="to_countdown"></span></p>
+            </marquee>
+        </div>
+
+        <div class="banner-ad"></div>
+
+        <section>
+            <article>
+
+                <div class="content">
+                    <i class="fa fa-repeat"></i>
+                    <p class="head">DAILY EPISODES UPDATED</p>
+                </div>
+
+                <div class="movie-container">
+                    <!-- Added by JS -->
+                </div>
+
+                <div class="blog-pager">
+                    <span class="curr-page"><a href="javascript:location.reload(true)">1</a></span>
+                    <span><a href="javascript:location.reload(true)">2</a></span>
+                    <span><a href="javascript:location.reload(true)">3</a></span>
+                    <span><a href="javascript:location.reload(true)">4</a></span>
+                    <span><a href="javascript:location.reload(true)">5</a></span>
+                    <span>...</span>
+                    <span><a href="javascript:location.reload(true)">76</a></span>
+                    <span class="curr-page"><a href="javascript:location.reload(true)">Next</a></span>
+                </div>
+
+            </article>
+
+            <aside>
+                <p>Age Calculator:</p>
+                <input type="date" name="bd" id="bd">
+                <button id="btn-calculate" onclick="calAge()">Calculate</button>
+                <marquee behavior="scroll" direction="left">
+                    <h3 id="age-result"></h3>
+                </marquee>
+
+                <a href="#">
+                    <img src="images/marvel_logo.png" alt="" width="100%">
+                </a>
+
+                <p class="center-head">TRENDING</p>
+                <div class="movie" style="width: 100%; margin: 0;">
+                    <a href="#">
+                        <div class="img-hover-zoom">
+                            <img src="images/m-13.jpg" style="width: 100%;">
+                        </div>
+                    </a>
+                </div>
+
+                <p class="center-head">MOST VIEW THIS WEEK</p>
+                <div class="movie-container">
+                    <!-- Added by JS -->
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p style="display: inline-block;">Copyright &copy; 2019. <b>SEAKMENG</b></p>
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <span>|</span>
+                <li><a href="#">About</a></li>
+                <span>|</span>
+                <li><a href="#">Sitemap</a></li>
+                <span>|</span>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <script>
+        add_movies(0, 28);
+        add_movies(1, 8);
+
+        window.onscroll = function () {
+            let y = this.pageYOffset;
+            if(y > 0)
+                document.getElementById('to-top-btn').style.visibility = 'visible';
+            else
+                document.getElementById('to-top-btn').style.visibility = 'collapse';
+        };
+    </script>
+</body>
+
+</html>

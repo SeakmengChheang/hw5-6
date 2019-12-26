@@ -1,0 +1,185 @@
+.container {
+  background-color: #272626;
+  margin: 0 auto;
+  width: 80%;
+}
+
+header .sitemap {
+  background-color: #222222 !important;
+  height: min-content;
+  padding: 3px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+header .sitemap ul {
+  margin-left: 0;
+  padding: 0;
+}
+
+header .sitemap li {
+  margin: 0 7px;
+  display: inline-block;
+}
+
+header .sitemap li a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+header .sitemap .right {
+  margin: auto 0;
+}
+
+header .sitemap .right i {
+  font-size: 2em;
+  width: 25px;
+  height: 25px;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #2c2e32;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .btn-search {
+  width: 60px;
+  background-color: #3a3a3a;
+}
+
+.navbar .btn-search a {
+  font-size: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+nav {
+  height: 60px;
+  display: block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 10px 16px;
+  margin: 0;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: lightblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover i {
+    visibility: visible;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #4caf50;
+}
+
+.dropdown i {
+    visibility: collapse;
+}
+
+.dropdown p, .dropdown i {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #3a3a3a;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 70% 30%;
+}
+
+article {
+  margin: 10px;
+  background-color: #3e3d3d;
+  padding: 10px;
+  box-shadow: 5px 3px 5px 3px #272626;
+}
+
+aside {
+  margin: 10px;
+}
+
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #232526;
+}
+
+footer ul {
+  float: right;
+}
+
+footer li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+footer li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer li a:hover,
+.sitemap .left a:hover,
+.sitemap .right a:hover {
+  color: blue;
+}
+
+.minus {
+  visibility: collapse;
+}
+
+#to-top-btn {
+  visibility: collapse;
+  background-color: #4caf50;
+  border: none;
+  position: fixed;
+  margin: 15px;
+  padding: 5px 10px;
+  bottom: 0;
+  right: 0;
+}
