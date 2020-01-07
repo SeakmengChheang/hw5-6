@@ -1,13 +1,13 @@
-<mxfile host="www.draw.io" modified="2020-01-07T12:51:48.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="nc5tVNmgL9KjkmSiBE-g" version="12.5.0" type="github">
+<mxfile host="www.draw.io" modified="2020-01-07T12:59:21.670Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" etag="XgSXd3IG8va6A_RVynJg" version="12.5.0" type="github">
   <diagram name="Page-1" id="2c0d36ab-eaac-3732-788b-9136903baeff">
-    <mxGraphModel dx="1577" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="1">
+    <mxGraphModel dx="541" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1.5" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="1">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
-        <mxCell id="2" value="Home Page" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;fontColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="2" value="Home Page" style="rounded=1;fillColor=#0050ef;strokeColor=#001DBC;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="762" y="50" width="190" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="4" value="Training Department" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+        <mxCell id="4" value="Training Department" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="1361.9999999999998" y="335.5" width="190" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="9" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0" parent="1" source="2" target="4" edge="1">
@@ -16,17 +16,26 @@
             <mxPoint x="437" y="215.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="10" value="Digestive Disease" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+        <mxCell id="10" value="Digestive Disease" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="947" y="335.5" width="190" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="12" value="Mental Illness" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+        <mxCell id="Pa9P1ApitiFwKp5U-Dm3-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="12" target="29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Mental Illness" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="561.9999999999999" y="335.5" width="190" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="13" value="Home" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
+        <mxCell id="13" value="Home" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="107" y="335.5" width="190" height="80" as="geometry"/>
         </mxCell>
+        <mxCell id="Pa9P1ApitiFwKp5U-Dm3-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="29" target="Pa9P1ApitiFwKp5U-Dm3-124">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="Pa9P1ApitiFwKp5U-Dm3-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="29" target="Pa9P1ApitiFwKp5U-Dm3-125">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
         <mxCell id="29" value="Food Sugesstion" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;shadow=0;" parent="1" vertex="1">
-          <mxGeometry x="582.25" y="451" width="149.5" height="69" as="geometry"/>
+          <mxGeometry x="582.25" y="465.5" width="149.5" height="69" as="geometry"/>
         </mxCell>
         <mxCell id="39" value="Data Collection" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14" parent="1" vertex="1">
           <mxGeometry x="767" y="995.5" width="130" height="60" as="geometry"/>
@@ -70,23 +79,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="101" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0" parent="1" source="12" target="29" edge="1">
-          <mxGeometry x="-23" y="135.5" width="100" height="100" as="geometry">
-            <mxPoint x="-23" y="235.5" as="sourcePoint"/>
-            <mxPoint x="77" y="135.5" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="103" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=2;rounded=0" parent="1" source="10" target="41" edge="1">
           <mxGeometry x="-23" y="135.5" width="100" height="100" as="geometry">
             <mxPoint x="-23" y="235.5" as="sourcePoint"/>
             <mxPoint x="77" y="135.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pa9P1ApitiFwKp5U-Dm3-123" value="Tips" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="582.25" y="545.5" width="149.5" height="69" as="geometry"/>
-        </mxCell>
         <mxCell id="Pa9P1ApitiFwKp5U-Dm3-124" value="How to prevent" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="582.25" y="635.5" width="149.5" height="69" as="geometry"/>
+          <mxGeometry x="582.25" y="650" width="149.5" height="69" as="geometry"/>
+        </mxCell>
+        <mxCell id="Pa9P1ApitiFwKp5U-Dm3-125" value="Tips" style="rounded=1;fillColor=#23445D;gradientColor=none;strokeColor=none;fontColor=#FFFFFF;fontStyle=1;fontFamily=Tahoma;fontSize=14;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="582.25" y="555.5" width="149.5" height="69" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
